@@ -1,5 +1,5 @@
 import React from 'react'
-import Chat from './Chat'
+import Modal from './Modals'
 
 export default function Home() {
     return (
@@ -7,7 +7,7 @@ export default function Home() {
             <section className="sideText">
                 Where words fails, Music Speaks
                 </section>
-                <Chat></Chat>
+                <Modal></Modal>
         </div>
     )
 }
